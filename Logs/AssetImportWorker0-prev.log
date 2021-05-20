@@ -1,91 +1,1045 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 16304 MB
+OS: 'Windows 10 Enterprise G; OS build 16299.1481; Version 1709; 64bit' Language: 'zh' Physical Memory: 16296 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+D:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cleon.huang/Documents/GitHub/AI-pathfinding
+D:/PROGRAM FILES (X86)/helloworld/AI-pathfinding
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65143
-Successfully changed project path to: C:/Users/cleon.huang/Documents/GitHub/AI-pathfinding
-C:/Users/cleon.huang/Documents/GitHub/AI-pathfinding
+50419
+Successfully changed project path to: D:/PROGRAM FILES (X86)/helloworld/AI-pathfinding
+D:/PROGRAM FILES (X86)/helloworld/AI-pathfinding
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cleon.huang/Documents/GitHub/AI-pathfinding/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/PROGRAM FILES (X86)/helloworld/AI-pathfinding/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K2200  (ID=0x13ba)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x191b)
     Vendor:   
-    VRAM:     4035 MB
-    Driver:   10.18.13.5362
+    VRAM:     8148 MB
+    Driver:   26.20.100.7212
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Mono path[0] = 'D:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001319 seconds.
+Register platform support module: D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002267 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.928 seconds
+- Completed reload, in  1.347 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000629 seconds.
+Registered in 0.000930 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
+- Completed reload, in  1.035 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1478 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.7 MB.
-System memory in use after: 72.7 MB.
+Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.2 MB.
+System memory in use after: 72.3 MB.
 
-Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 1912.
-Total: 2.349100 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.094400 ms MarkObjects: 1.860000 ms  DeleteObjects: 0.181700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/NavMeshComponents/Editor
-  artifactKey: Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Editor using Guid(63b588f3892bb4b5eb73ad3d2791e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7c49c61d2d3cf3ba12d39cf6bf892') in 0.008438 seconds
-  Import took 0.010715 seconds .
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.191101 ms (FindLiveObjects: 0.136684 ms CreateObjectMapping: 0.043422 ms MarkObjects: 1.821827 ms  DeleteObjects: 0.188413 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/NavMeshComponents/Scripts
-  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6cc29b8569c9dba5c13357ab3fd27a') in 0.006837 seconds
-  Import took 0.009526 seconds .
+  path: Assets/Soldier/soldier.unitypackage
+  artifactKey: Guid(be25bf084f256124dbb8350356628db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/soldier.unitypackage using Guid(be25bf084f256124dbb8350356628db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e6ee6836ec4f440f3fd6007ecd45da') in 0.041011 seconds
+  Import took 0.043279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909588 seconds.
+  path: Assets/Soldier/Soldier.unitypackage
+  artifactKey: Guid(be25bf084f256124dbb8350356628db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Soldier.unitypackage using Guid(be25bf084f256124dbb8350356628db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5389577d04ba9e85284c7b5ee7ac0c') in 0.003565 seconds
+  Import took 0.006184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.689277 seconds.
+  path: Assets/Soldier/Test/Materials
+  artifactKey: Guid(8b758bc81b603374ca3c64639e68e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials using Guid(8b758bc81b603374ca3c64639e68e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66e07219c224b2f9bdfd51f755a22c8') in 0.003385 seconds
+  Import took 0.005804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.143442 seconds.
+  path: Assets/Soldier/Test/Materials/ColorSpecReflexive.shader
+  artifactKey: Guid(f888b1559fc911942b007ac5533357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/ColorSpecReflexive.shader using Guid(f888b1559fc911942b007ac5533357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399d2ca30684574635590b648681d53') in 0.078541 seconds
+  Import took 0.081527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192615 seconds.
+  path: Assets/Soldier/Test/Materials/ColorSpecReflexive.shader
+  artifactKey: Guid(f888b1559fc911942b007ac5533357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/ColorSpecReflexive.shader using Guid(f888b1559fc911942b007ac5533357d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399d2ca30684574635590b648681d53') in 0.005115 seconds
+  Import took 0.007752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.778815 seconds.
+  path: Assets/Soldier/Test/Materials/pisaCube.psd
+  artifactKey: Guid(1f22134bd2862d347a66ea749cac7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/pisaCube.psd using Guid(1f22134bd2862d347a66ea749cac7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9e8856d0e3ffe6894db6f67ac566e9') in 0.205014 seconds
+  Import took 0.207326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.035147 seconds.
+  path: Assets/Soldier/Test/Materials/Rifle_LOD_D.psd
+  artifactKey: Guid(a569e07a5ba32444bbd0dc5aca3c24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/Rifle_LOD_D.psd using Guid(a569e07a5ba32444bbd0dc5aca3c24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e93211346b5c45f04656025246a5ed') in 0.011556 seconds
+  Import took 0.013841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563809 seconds.
+  path: Assets/Soldier/Test/Materials/Rifle_LOD_N.psd
+  artifactKey: Guid(e55855cfb20d9f047aa961eccfae405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/Rifle_LOD_N.psd using Guid(e55855cfb20d9f047aa961eccfae405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c53ba00d38cb821204bbe191dbd60b') in 0.018218 seconds
+  Import took 0.020825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.217918 seconds.
+  path: Assets/Soldier/Test/Materials/Rifle_LOD_S.psd
+  artifactKey: Guid(f942a81d8af81f7489bf1086792ce6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Materials/Rifle_LOD_S.psd using Guid(f942a81d8af81f7489bf1086792ce6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aa837f856bb7bfbdef5325ae36fdf8') in 0.009173 seconds
+  Import took 0.011454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.531998 seconds.
+  path: Assets/Soldier/Test/Model_Specialforces_Light.fbx
+  artifactKey: Guid(ba540f2660127844ba8351c017006bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Model_Specialforces_Light.fbx using Guid(ba540f2660127844ba8351c017006bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab54a9552a35fe6b172a37c040e2f5d') in 0.260941 seconds
+  Import took 0.263580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.966123 seconds.
+  path: Assets/Soldier/Test/Model_Specialforces_Light.prefab
+  artifactKey: Guid(3bee2df11625a554092dde1d29064f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Model_Specialforces_Light.prefab using Guid(3bee2df11625a554092dde1d29064f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c605f9432cc0057319ab13ce688f1c') in 0.062877 seconds
+  Import took 0.065997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.877048 seconds.
+  path: Assets/AI Path/Scenes
+  artifactKey: Guid(a9ce7778147c7d24bac69b58d8787df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes using Guid(a9ce7778147c7d24bac69b58d8787df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc4a87fa3606f2f33f4a6d8a4974c3') in 0.004147 seconds
+  Import took 0.007092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247781 seconds.
+  path: Assets/AI Path/Scripts
+  artifactKey: Guid(cf467349bfb9c824a9fc742dcbe31401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scripts using Guid(cf467349bfb9c824a9fc742dcbe31401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cb059ac5473b26371dbacfe8ea08a1') in 0.003127 seconds
+  Import took 0.005477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.893112 seconds.
+  path: Assets/AI Path/Scripts/ClickToMove.cs
+  artifactKey: Guid(efcdd1c975559ab49ae31ae8a0d8f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scripts/ClickToMove.cs using Guid(efcdd1c975559ab49ae31ae8a0d8f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6535baa7223185104088245c15ea983') in 0.014366 seconds
+  Import took 0.016641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049744 seconds.
+  path: Assets/AI Path/Scripts/ClickToMove.cs
+  artifactKey: Guid(efcdd1c975559ab49ae31ae8a0d8f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scripts/ClickToMove.cs using Guid(efcdd1c975559ab49ae31ae8a0d8f6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6535baa7223185104088245c15ea983') in 0.005682 seconds
+  Import took 0.008391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.772623 seconds.
+  path: Assets/AI Path/Scenes/SampleScene
+  artifactKey: Guid(71a31dcd007fd564c9b8bf8e13d0f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes/SampleScene using Guid(71a31dcd007fd564c9b8bf8e13d0f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132d76df935d8d6d69ff83d1e8525d66') in 0.028150 seconds
+  Import took 0.032962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.736777 seconds.
+  path: Assets/AI Path/Scenes/SampleScene/NavMesh-SkeletonSurface.asset
+  artifactKey: Guid(94f5920d3e24c234e9c38487b32feec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes/SampleScene/NavMesh-SkeletonSurface.asset using Guid(94f5920d3e24c234e9c38487b32feec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420a97d909bf703ef85acddb8559379e') in 0.014583 seconds
+  Import took 0.020069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.190667 seconds.
+  path: Assets/AI Path/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914bdf60dcc41ea7fa7b15bbc5e93c07') in 0.006478 seconds
+  Import took 0.011582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.369206 seconds.
+  path: Assets/Soldier/Test
+  artifactKey: Guid(7542865a27ff45f458c5138af7eb59de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test using Guid(7542865a27ff45f458c5138af7eb59de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3c88c30e01120ad16ec3dcf1d1db1c') in 0.004673 seconds
+  Import took 0.007245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.467469 seconds.
+  path: Assets/Soldier/Test/Model_Specialforces_Light.prefab
+  artifactKey: Guid(3bee2df11625a554092dde1d29064f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier/Test/Model_Specialforces_Light.prefab using Guid(3bee2df11625a554092dde1d29064f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cd1b6df5d1b45676a1a8f4d2531b91') in 0.025727 seconds
+  Import took 0.031409 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1955.
+Total: 2.378759 ms (FindLiveObjects: 0.183127 ms CreateObjectMapping: 0.052106 ms MarkObjects: 2.060836 ms  DeleteObjects: 0.081180 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.796171 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.007429 seconds
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.730194 seconds.
+  path: Assets/Agent 3D Model
+  artifactKey: Guid(1720226e65617304cbcfa82174d25ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model using Guid(1720226e65617304cbcfa82174d25ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca88561186ce4a832f976b7614dcffdd') in 0.005481 seconds
+  Import took 0.008100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.415818 seconds.
+  path: Assets/FantasyMonster
+  artifactKey: Guid(3b265e6f23ac5e449b99828c84336c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyMonster using Guid(3b265e6f23ac5e449b99828c84336c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a237fcc9da6dd4dc0d08d0f77980e70') in 0.004217 seconds
+  Import took 0.006540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.272996 seconds.
+  path: Assets/Agent 3D Model/BodyGuards
+  artifactKey: Guid(2d5480eac5c08f5449f62e2789bc45f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards using Guid(2d5480eac5c08f5449f62e2789bc45f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28007b050fb670e12c49bbbc2cd98b69') in 0.004005 seconds
+  Import took 0.006311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.693715 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes
+  artifactKey: Guid(681a597be602bc1498a995c92f60719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes using Guid(681a597be602bc1498a995c92f60719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9aedefdba9aced99f432496fe5a156b') in 0.004198 seconds
+  Import took 0.006460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.684657 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Textures
+  artifactKey: Guid(012ac441d24d4b44da4efbfab77cfcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Textures using Guid(012ac441d24d4b44da4efbfab77cfcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fb514514a502affa71a455961e81a4') in 0.004638 seconds
+  Import took 0.006918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.472058 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/BodyGuardsScene.unity
+  artifactKey: Guid(67a05a7a676f7cc438c5e95580a1a9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/BodyGuardsScene.unity using Guid(67a05a7a676f7cc438c5e95580a1a9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf25c792812a7fff2d7c4ec761a12451') in 0.005800 seconds
+  Import took 0.008134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.369424 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/BodyGuardsSceneSettings.lighting
+  artifactKey: Guid(50aef43595f901e41a1eaf22972dcc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/BodyGuardsSceneSettings.lighting using Guid(50aef43595f901e41a1eaf22972dcc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'fb43be4eb345045d35cccdb4421c3fde') in 0.007661 seconds
+  Import took 0.010026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006699 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/BodyGuardsSceneSettings.lighting
+  artifactKey: Guid(50aef43595f901e41a1eaf22972dcc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/BodyGuardsSceneSettings.lighting using Guid(50aef43595f901e41a1eaf22972dcc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'fb43be4eb345045d35cccdb4421c3fde') in 0.008337 seconds
+  Import took 0.010834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.357578 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/ReadMe.txt.txt
+  artifactKey: Guid(1ebe39182b265494aae2966f6501f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/ReadMe.txt.txt using Guid(1ebe39182b265494aae2966f6501f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470276c8cf1e99a8dc6a2d006fb9689') in 0.012849 seconds
+  Import took 0.015186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013809 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/ReadMe.txt.txt
+  artifactKey: Guid(1ebe39182b265494aae2966f6501f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/ReadMe.txt.txt using Guid(1ebe39182b265494aae2966f6501f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470276c8cf1e99a8dc6a2d006fb9689') in 0.004003 seconds
+  Import took 0.006284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.683694 seconds.
+  path: Assets/AI Path/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1b8eaaeb46bbdb3279d4eae2ee7b7') in 0.004611 seconds
+  Import took 0.007267 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 4.241365 ms (FindLiveObjects: 1.869402 ms CreateObjectMapping: 0.117805 ms MarkObjects: 2.163538 ms  DeleteObjects: 0.089109 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.666202 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_Ao.tga
+  artifactKey: Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_Ao.tga using Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721e06615f1d29269a850830f2840051') in 0.089473 seconds
+  Import took 0.092056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_Ao.tga
+  artifactKey: Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_Ao.tga using Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721e06615f1d29269a850830f2840051') in 0.014251 seconds
+  Import took 0.018450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.458678 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_D.tga
+  artifactKey: Guid(0882e157fc9368c44ae9b825c74cf1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_D.tga using Guid(0882e157fc9368c44ae9b825c74cf1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b240936c3202582cf9475c05850d7eb') in 0.010295 seconds
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470436 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_N.tga
+  artifactKey: Guid(542c0bc0f8220ad4fa97f4ac60d10aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Textures/Boduguard_01_N.tga using Guid(542c0bc0f8220ad4fa97f4ac60d10aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba2d6336d1b801a12016530fd7744ed') in 0.023049 seconds
+  Import took 0.026619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.655824 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/screen.fbx
+  artifactKey: Guid(a6e4323446051b94e961883501d13337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/screen.fbx using Guid(a6e4323446051b94e961883501d13337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279588fa7263801e0c1eb050e05939d8') in 0.050885 seconds
+  Import took 0.053337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030655 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/screen.fbx
+  artifactKey: Guid(a6e4323446051b94e961883501d13337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/screen.fbx using Guid(a6e4323446051b94e961883501d13337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279588fa7263801e0c1eb050e05939d8') in 0.017056 seconds
+  Import took 0.021599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.695422 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/Materials
+  artifactKey: Guid(1c86befe3d4e8d24996a5c20cef98604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/Materials using Guid(1c86befe3d4e8d24996a5c20cef98604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f1020c4c745f3c5c27f624e81c98b2') in 0.003632 seconds
+  Import took 0.005933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.418198 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_01.fbx
+  artifactKey: Guid(bdd7a03fd93bf2d4cb6babd63ceabee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_01.fbx using Guid(bdd7a03fd93bf2d4cb6babd63ceabee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8384fe1b4c802ae3ab057d4dbd21d0c7') in 0.229488 seconds
+  Import took 0.232653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733372 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_02.fbx
+  artifactKey: Guid(765e2fde8c84f094e99304c6198491ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_02.fbx using Guid(765e2fde8c84f094e99304c6198491ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41587089c91f92dbad7a667c2348ebe') in 0.116705 seconds
+  Import took 0.120094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.866898 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_03.fbx
+  artifactKey: Guid(6996385895b383749b266464bf872c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_03.fbx using Guid(6996385895b383749b266464bf872c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28a1edcff79f632d4292823a8d9bb42') in 0.115815 seconds
+  Import took 0.118980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363534 seconds.
+  path: Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_04.fbx
+  artifactKey: Guid(69e0bf832ba8212478b45616cc569f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/BodyGuards/Meshes/SkelMesh_Bodyguard_04.fbx using Guid(69e0bf832ba8212478b45616cc569f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24845e9cdef8ec44bb561d02a68421a') in 0.124979 seconds
+  Import took 0.129833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.063736 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon
+  artifactKey: Guid(e0db2acccb7a85843ba1dc8b328e175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon using Guid(e0db2acccb7a85843ba1dc8b328e175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c1f6b58d59ffc17135083df630367e') in 0.004058 seconds
+  Import took 0.006779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.406577 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_static.FBX
+  artifactKey: Guid(c375a17f5f510d44c839b216989e242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_static.FBX using Guid(c375a17f5f510d44c839b216989e242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008905ca48c3fc1b29456f59fa18011a') in 0.298474 seconds
+  Import took 0.301085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.386224 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd70845c2aa63a4f0e0d39045815bef') in 0.062385 seconds
+  Import took 0.067660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.294418 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Old_Textures.rar
+  artifactKey: Guid(88518437d6d169543a46ff05cb3ba1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Old_Textures.rar using Guid(88518437d6d169543a46ff05cb3ba1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c63f5dcb34554d2822090268aff4ed') in 0.008732 seconds
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.596562 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Textures
+  artifactKey: Guid(9fed53efb44da09449482e1f5050be03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Textures using Guid(9fed53efb44da09449482e1f5050be03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57d8ff819c2f332139fbc0d1ae880c3') in 0.003594 seconds
+  Import took 0.005893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731141 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Materials
+  artifactKey: Guid(fbfbd5bb98098584f93339420b5c00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/Materials using Guid(fbfbd5bb98098584f93339420b5c00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a17c0e08536114c14b4e9d88f8c146') in 0.003716 seconds
+  Import took 0.006020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.065762 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ada4e0eda690f68e9bd86811dc520a') in 0.105962 seconds
+  Import took 0.111583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.887279 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c838a49bb4ddd94dc5f7f96e2459f') in 0.115129 seconds
+  Import took 0.119618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.144209 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c7ee6f6286b187debe141cf457e98') in 0.094049 seconds
+  Import took 0.099878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.656028 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40315137fe3df3ff7d0f73b8d45f90e') in 0.092526 seconds
+  Import took 0.097351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.028673 seconds.
+  path: Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX
+  artifactKey: Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Skeleton - Animated and Low Polygon/skeleton_animated.FBX using Guid(39d03f82786b57d41af8bd27bce84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca137744254e5433da110409827f252') in 0.091703 seconds
+  Import took 0.096200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.624667 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/animator
+  artifactKey: Guid(4fe44c74d296a8246b12aa51a6a39f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/animator using Guid(4fe44c74d296a8246b12aa51a6a39f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90915132c6278bcd34376d55e7301f4c') in 0.004155 seconds
+  Import took 0.006874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.686679 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/animator/arthur.controller
+  artifactKey: Guid(d6851830e209a2645bec7b89c4455f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/animator/arthur.controller using Guid(d6851830e209a2645bec7b89c4455f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2058e76730c0238c104a9758f3b0e280') in 0.037131 seconds
+  Import took 0.040584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.894344 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX
+  artifactKey: Guid(73c280e37a38d4a4781a5e14b64e271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX using Guid(73c280e37a38d4a4781a5e14b64e271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885c0443e092cdeeb50e555a3b518346') in 0.003759 seconds
+  Import took 0.006067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.290662 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation
+  artifactKey: Guid(e69f4430c37731842b3abff40d10f89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation using Guid(e69f4430c37731842b3abff40d10f89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d24dc8cf3c9fd66b883c2a4f3ef168') in 0.007275 seconds
+  Import took 0.010218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960081 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.anim
+  artifactKey: Guid(2b226e9cb8ebf6445a9121d0e64e8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.anim using Guid(2b226e9cb8ebf6445a9121d0e64e8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a29aa58675c34df28f042b5fce4e3da') in 0.008046 seconds
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668316 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.controller
+  artifactKey: Guid(b91bf12863fb2774184a2816d9a13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/animation/fx_hr_arthur_askill_01.controller using Guid(b91bf12863fb2774184a2816d9a13d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3d606746367229b4c18272c4d1195') in 0.006988 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.897096 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps
+  artifactKey: Guid(71fa14a58949fe24a809df884f8449a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps using Guid(71fa14a58949fe24a809df884f8449a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53572a36daaa1ff49fb25db587867e3') in 0.003899 seconds
+  Import took 0.006234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829597 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab
+  artifactKey: Guid(3f7b232080ca3a84f98322f95b559ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab using Guid(3f7b232080ca3a84f98322f95b559ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509d2bc0d2921b14035109afcd30197') in 0.011110 seconds
+  Import took 0.014139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088979 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab
+  artifactKey: Guid(3f7b232080ca3a84f98322f95b559ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_askill_01.prefab using Guid(3f7b232080ca3a84f98322f95b559ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509d2bc0d2921b14035109afcd30197') in 0.008972 seconds
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.963645 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab
+  artifactKey: Guid(b7f59664cacc27e4f8ad6a18d0d6ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab using Guid(b7f59664cacc27e4f8ad6a18d0d6ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eee28c84118a6c9efa60c10e22e3f02') in 0.010765 seconds
+  Import took 0.013490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006088 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab
+  artifactKey: Guid(b7f59664cacc27e4f8ad6a18d0d6ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_1.prefab using Guid(b7f59664cacc27e4f8ad6a18d0d6ccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eee28c84118a6c9efa60c10e22e3f02') in 0.008725 seconds
+  Import took 0.013984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.535709 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab
+  artifactKey: Guid(a31af05c933e62548adf9eef9e37955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab using Guid(a31af05c933e62548adf9eef9e37955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f397e6e76315b8fc79391139833d491') in 0.006434 seconds
+  Import took 0.009009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017789 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab
+  artifactKey: Guid(a31af05c933e62548adf9eef9e37955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_attack_01_2.prefab using Guid(a31af05c933e62548adf9eef9e37955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f397e6e76315b8fc79391139833d491') in 0.006274 seconds
+  Import took 0.008967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443991 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_1.prefab
+  artifactKey: Guid(30261511100268c409cf9f527d724d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_1.prefab using Guid(30261511100268c409cf9f527d724d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879381548a267156baad06509cf14e36') in 0.010160 seconds
+  Import took 0.013634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633319 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_2.prefab
+  artifactKey: Guid(9db79c551e62c774f95ff28b97a0350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/FX_prefaps/fx_hr_arthur_pskill_03_2.prefab using Guid(9db79c551e62c774f95ff28b97a0350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b11f026802e724972ca32143160a08') in 0.006415 seconds
+  Import took 0.009085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.473453 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/material
+  artifactKey: Guid(f2fe1da60dfa879418d6e215eae2a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/material using Guid(f2fe1da60dfa879418d6e215eae2a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1cfe05c821cf7492f0aa4fc8103f94') in 0.004032 seconds
+  Import took 0.006450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.454750 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/texture
+  artifactKey: Guid(a9acfbf5da0d5ab4ca278db5660cc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/FX/texture using Guid(a9acfbf5da0d5ab4ca278db5660cc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5750dea054fa37da95055f8872a08978') in 0.004305 seconds
+  Import took 0.006661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.466453 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Image
+  artifactKey: Guid(5c5aee485b048724682854765fd768e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Image using Guid(5c5aee485b048724682854765fd768e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2fb1d56c949ebdbebe949c1a17557') in 0.004460 seconds
+  Import took 0.006806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.140335 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Image/ui_icon_hero_arthur.png
+  artifactKey: Guid(46d2bf8f83a47f642a51d6c922e6055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Image/ui_icon_hero_arthur.png using Guid(46d2bf8f83a47f642a51d6c922e6055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bff92cbcb5a2c2b9d330691986f19fc') in 0.019374 seconds
+  Import took 0.021829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.104751 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/materials
+  artifactKey: Guid(537c190c9e729e34bbc875abc1f143bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/materials using Guid(537c190c9e729e34bbc875abc1f143bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c8eaf94f61768916ad5b807bb55575') in 0.003985 seconds
+  Import took 0.006252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772561 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models
+  artifactKey: Guid(422aab72a9b13dc42a83f2a0444d94b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models using Guid(422aab72a9b13dc42a83f2a0444d94b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3253d1961de38f514ed8998c55fcd947') in 0.004577 seconds
+  Import took 0.007225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.553137 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps
+  artifactKey: Guid(011f9df315988df4aa77fff0ec031e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps using Guid(011f9df315988df4aa77fff0ec031e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33111cc4518b7508f097494ff823e0f0') in 0.003851 seconds
+  Import took 0.006238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.911705 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/arthur_01.prefab
+  artifactKey: Guid(7bf201eb93a64ab47857ce81b796a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/arthur_01.prefab using Guid(7bf201eb93a64ab47857ce81b796a258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8568009c0a3a0e5ee50525a8ae273d7c') in 0.047947 seconds
+  Import took 0.051482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.895113 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab
+  artifactKey: Guid(24bac8d7ea648e74cac0e84c84f4278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab using Guid(24bac8d7ea648e74cac0e84c84f4278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e43ca18d0eef58ab3c6d7b24252ff8a') in 0.006596 seconds
+  Import took 0.008943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002102 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab
+  artifactKey: Guid(24bac8d7ea648e74cac0e84c84f4278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Main Camera.prefab using Guid(24bac8d7ea648e74cac0e84c84f4278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e43ca18d0eef58ab3c6d7b24252ff8a') in 0.004990 seconds
+  Import took 0.007320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.964750 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab
+  artifactKey: Guid(0bcc031a75dc185499c812cc0aa62dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab using Guid(0bcc031a75dc185499c812cc0aa62dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc416af403cecdbd747e1e7f44d15ce') in 0.004941 seconds
+  Import took 0.007293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001159 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab
+  artifactKey: Guid(0bcc031a75dc185499c812cc0aa62dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/prefaps/Directional light.prefab using Guid(0bcc031a75dc185499c812cc0aa62dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc416af403cecdbd747e1e7f44d15ce') in 0.006361 seconds
+  Import took 0.009055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.604174 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Scenes
+  artifactKey: Guid(fbd2d16c89976c042b980c15d5c917d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Scenes using Guid(fbd2d16c89976c042b980c15d5c917d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7e8c087a442aff8aca7f055dd6a877') in 0.003646 seconds
+  Import took 0.005945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.540116 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Scenes/arthur.unity
+  artifactKey: Guid(3021480d86be9094a96939f95d3432d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/Scenes/arthur.unity using Guid(3021480d86be9094a96939f95d3432d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfdfb5687341964ffbec2b4c2ea23b5') in 0.004440 seconds
+  Import took 0.006861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.374215 seconds.
+  path: Assets/AI Path/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AI Path/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b004c148e585295ed2248d3d0e91cf7') in 0.004491 seconds
+  Import took 0.006943 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 3.300056 ms (FindLiveObjects: 0.159339 ms CreateObjectMapping: 0.050218 ms MarkObjects: 3.006676 ms  DeleteObjects: 0.081935 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.266777 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX
+  artifactKey: Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX using Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975838b1fe68448b7f82af5f9e60a4e5') in 0.113475 seconds
+  Import took 0.117411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.631051 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX
+  artifactKey: Guid(a381c88249e992f4993d820afefd140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX using Guid(a381c88249e992f4993d820afefd140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9a1bf1639dc32352e140cf7774cbc6') in 0.033575 seconds
+  Import took 0.036919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.707255 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX
+  artifactKey: Guid(af5f9992aef69544298ef17a68a782d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX using Guid(af5f9992aef69544298ef17a68a782d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fa063a0a59cfb65e7c617b6eff3c28') in 0.032317 seconds
+  Import took 0.035815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374574 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX
+  artifactKey: Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX using Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc2d435cb5dcfeb7cb2a4ed453436d5') in 0.030174 seconds
+  Import took 0.033092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549247 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX
+  artifactKey: Guid(4cf481531bb7c59428b5af9a632f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX using Guid(4cf481531bb7c59428b5af9a632f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0dc6871e962c64b09fe9e56729589f') in 0.040634 seconds
+  Import took 0.043881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002705 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX
+  artifactKey: Guid(4cf481531bb7c59428b5af9a632f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_passive_01.FBX using Guid(4cf481531bb7c59428b5af9a632f142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0dc6871e962c64b09fe9e56729589f') in 0.035834 seconds
+  Import took 0.039245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404213 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX
+  artifactKey: Guid(c87c24ff1ac76fd42a378ef5c6bb0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX using Guid(c87c24ff1ac76fd42a378ef5c6bb0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c8612a83e2e482fc7bcb9c800e0041') in 0.031536 seconds
+  Import took 0.034693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.319193 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX
+  artifactKey: Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX using Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722d2bc33d715695e3bea5c17d39a343') in 0.036013 seconds
+  Import took 0.040829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.825256 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX
+  artifactKey: Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX using Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feda7aeff802a7f49d4e6bfb1a00e766') in 0.029275 seconds
+  Import took 0.032418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.872898 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX
+  artifactKey: Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_idle_01.FBX using Guid(80212f1697003ec4d8b59bdcb908a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb01e583b5ee0df2a0a4b69050858f0') in 0.028706 seconds
+  Import took 0.031802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.974837 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX
+  artifactKey: Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX using Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c5b5b08cb0047bb23490f0408e4d8d') in 0.028413 seconds
+  Import took 0.031204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.041444 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX
+  artifactKey: Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_01.FBX using Guid(a6555311c0902fb47bcd2ce6066ea5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4a4f7948be5fac6c825ae0d48e5892') in 0.026513 seconds
+  Import took 0.029618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.999383 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX
+  artifactKey: Guid(a381c88249e992f4993d820afefd140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_active_01.FBX using Guid(a381c88249e992f4993d820afefd140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1632fad38685990b7ed93806a7d20333') in 0.029919 seconds
+  Import took 0.033197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.852544 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX
+  artifactKey: Guid(af5f9992aef69544298ef17a68a782d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_attack_01.FBX using Guid(af5f9992aef69544298ef17a68a782d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177fa4156e1f4371ff55e9d424199a60') in 0.040020 seconds
+  Import took 0.043615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.484767 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX
+  artifactKey: Guid(a13371e27a0a44046b821f3ba374ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX using Guid(a13371e27a0a44046b821f3ba374ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012b0710bad5f9735b23a70f40005ab2') in 0.031843 seconds
+  Import took 0.034733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.610671 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX
+  artifactKey: Guid(a13371e27a0a44046b821f3ba374ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_dead_01.FBX using Guid(a13371e27a0a44046b821f3ba374ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93982515e6a0de78f4429c070927ce6f') in 0.028980 seconds
+  Import took 0.032050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.904062 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX
+  artifactKey: Guid(c87c24ff1ac76fd42a378ef5c6bb0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/models/arthur_walk_01.FBX using Guid(c87c24ff1ac76fd42a378ef5c6bb0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3c6a4020c1c0f70ed0972f571ddbb5') in 0.029596 seconds
+  Import took 0.033281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.359383 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png
+  artifactKey: Guid(9ca0e12369475af4cab2979bbfe99301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png using Guid(9ca0e12369475af4cab2979bbfe99301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1ba9f3a03ee1df6689348e4801dbb6') in 0.014054 seconds
+  Import took 0.016450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028926 seconds.
+  path: Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png
+  artifactKey: Guid(9ca0e12369475af4cab2979bbfe99301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/Fantasy Chess RPG Character - Arthur/textures/arthur_01.png using Guid(9ca0e12369475af4cab2979bbfe99301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1ba9f3a03ee1df6689348e4801dbb6') in 0.009307 seconds
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.030727 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton
+  artifactKey: Guid(ed40298db01f646478eeab9e13ed5a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton using Guid(ed40298db01f646478eeab9e13ed5a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ef2a180613a61758c300e87a3cc39') in 0.007774 seconds
+  Import took 0.010828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.708574 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton/Texture
+  artifactKey: Guid(ced0317533d84424cb3842ce02be2d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton/Texture using Guid(ced0317533d84424cb3842ce02be2d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71175d40ff60e22fcfbed7566735358') in 0.004013 seconds
+  Import took 0.006394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132988 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton/Texture/Skeleton_D.tif
+  artifactKey: Guid(943f3c476130c4f4f8ae55ef3ccd38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton/Texture/Skeleton_D.tif using Guid(943f3c476130c4f4f8ae55ef3ccd38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cb16fd4fb483ff885f54bc7a027ddb') in 0.018695 seconds
+  Import took 0.021135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.549456 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX
+  artifactKey: Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX using Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c689d656bc906eec07ccab93e8c918') in 0.051743 seconds
+  Import took 0.055564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007963 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX
+  artifactKey: Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Skeleton@Skin.FBX using Guid(5a35c5f0a89b9654d897ccd7c8f81bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c689d656bc906eec07ccab93e8c918') in 0.054664 seconds
+  Import took 0.057893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857917 seconds.
+  path: Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Materials
+  artifactKey: Guid(e050e3da08a07714289cef457a30d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agent 3D Model/FantasyMonster/Skeleton/Character/Materials using Guid(e050e3da08a07714289cef457a30d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cdbb8d76bac3a9d82817a670f419df') in 0.003298 seconds
+  Import took 0.005710 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
