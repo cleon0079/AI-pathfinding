@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WayPoint : MonoBehaviour
+namespace CleonAI
 {
-    public Vector3 position => transform.position;
-
-    private void OnDrawGizmos()
+    public class WayPoint : MonoBehaviour
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 1f);
+        // Get the position of the waypoint and save to use
+        public Vector3 position => transform.position;
+
+        private void OnDrawGizmos()
+        {
+            // Draw out the way point in the scene view
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, 1f);
+        }
     }
 }
