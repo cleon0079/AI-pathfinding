@@ -14,6 +14,7 @@ namespace CleonAI
 
         private void Start()
         {
+            // Same as MoveObstacleOnZ.cs
             meshObstacle = GetComponent<NavMeshObstacle>();
             pointB = transform.GetChild(0).position.x;
             pointA = transform.position.x;
