@@ -7,7 +7,7 @@ namespace CleonAI
     public class WayPoint : MonoBehaviour
     {
         // Get the position of the waypoint and save to use
-        public Vector3 position => transform.position;
+        public Vector3 Position => transform.position;
 
         private void OnDrawGizmos()
         {
